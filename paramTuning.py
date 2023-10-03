@@ -1,7 +1,7 @@
 import subprocess
 import re
 import matplotlib.pyplot as plt
-
+#tuning hyperparameters -- number of heads and layers
 def plot_results(results):
     for data in results:
         num_head = data["num_head"]
